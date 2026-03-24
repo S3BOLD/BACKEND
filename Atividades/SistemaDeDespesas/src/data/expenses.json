@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Mecanico",
+    "amount": 450,
+    "category": "Automovel",
+    "date": "2026-03-24",
+    "description": "Revisão",
+    "createdAt": "2026-03-24T22:50:47.471Z"
+  },
+  {
+    "id": 2,
+    "title": "Posto de Gasolina",
+    "amount": 90,
+    "category": "Automovel",
+    "date": "2026-03-03",
+    "description": "Abastecimento",
+    "createdAt": "2026-03-24T22:54:25.944Z"
+  }
+]
