@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Streaming",
+    "amount": 50,
+    "category": "Lazer",
+    "date": "2026-03-01",
+    "description": "Assinatura",
+    "createdAt": "2026-04-15T00:32:11.357Z"
+  },
+  {
+    "id": 2,
+    "title": "Restaurante",
+    "amount": 120,
+    "category": "Alimentacao",
+    "date": "2026-03-12",
+    "description": "Jantar",
+    "createdAt": "2026-04-15T00:33:20.986Z"
+  },
+  {
+    "id": 3,
+    "title": "Cinema",
+    "amount": 50,
+    "category": "Lazer",
+    "date": "2026-03-18",
+    "description": "Filme com amigos",
+    "createdAt": "2026-04-15T00:33:40.156Z"
+  },
+  {
+    "id": 4,
+    "title": "Mecanico",
+    "amount": 450,
+    "category": "Automovel",
+    "date": "2026-03-24",
+    "description": "Revisão",
+    "createdAt": "2026-04-15T00:35:49.750Z"
+  },
+  {
+    "id": 6,
+    "title": "Cinema",
+    "amount": 80,
+    "category": "Lazer",
+    "date": "2026-03-18",
+    "description": "Filme com amigos",
+    "createdAt": "2026-04-15T00:38:57.295Z"
+  }
+]
