@@ -31,3 +31,7 @@ function listar () {
 adicionar("lavar a louça");
 adicionar("Lacar o rosto");
 listar();
+remover(1);
+listar();
+adicionar("Tomar café");
+listar();

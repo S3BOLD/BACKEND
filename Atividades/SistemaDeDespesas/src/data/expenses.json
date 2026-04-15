@@ -16,5 +16,77 @@
     "date": "2026-03-03",
     "description": "Abastecimento",
     "createdAt": "2026-03-24T22:54:25.944Z"
+  },
+  {
+    "id": 3,
+    "title": "Supermercado",
+    "amount": 230,
+    "category": "Alimentacao",
+    "date": "2026-03-20",
+    "description": "Compra do mês",
+    "createdAt": "2026-03-24T23:10:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Cinema",
+    "amount": 50,
+    "category": "Lazer",
+    "date": "2026-03-18",
+    "description": "Filme com amigos",
+    "createdAt": "2026-03-24T23:12:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "Uber",
+    "amount": 35,
+    "category": "Transporte",
+    "date": "2026-03-15",
+    "description": "Corrida até o trabalho",
+    "createdAt": "2026-03-24T23:15:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "Restaurante",
+    "amount": 120,
+    "category": "Alimentacao",
+    "date": "2026-03-12",
+    "description": "Jantar",
+    "createdAt": "2026-03-24T23:18:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Internet",
+    "amount": 99,
+    "category": "Contas",
+    "date": "2026-03-10",
+    "description": "Plano mensal",
+    "createdAt": "2026-03-24T23:20:00.000Z"
+  },
+  {
+    "id": 8,
+    "title": "Academia",
+    "amount": 110,
+    "category": "Saude",
+    "date": "2026-03-08",
+    "description": "Mensalidade",
+    "createdAt": "2026-03-24T23:22:00.000Z"
+  },
+  {
+    "id": 9,
+    "title": "Farmacia",
+    "amount": 60,
+    "category": "Saude",
+    "date": "2026-03-05",
+    "description": "Medicamentos",
+    "createdAt": "2026-03-24T23:25:00.000Z"
+  },
+  {
+    "id": 10,
+    "title": "Streaming",
+    "amount": 30,
+    "category": "Lazer",
+    "date": "2026-03-01",
+    "description": "Assinatura",
+    "createdAt": "2026-03-24T23:28:00.000Z"
   }
 ]

@@ -64,7 +64,7 @@ app.get("/expenses", (req, res) => {
 
 app.get("/expenses/:id", (req, res) => {
   const expenses = readExpenses();
-  const expense = expenses.find(e => e.id === req.params.id);
+  const expense = expenses.find(e => e.id === Number(req.params.id));
 
   if (!expense) return res.status(404).json({ error: "Despesa não encontrada" });
 
@@ -73,7 +73,7 @@ app.get("/expenses/:id", (req, res) => {
 
 app.put("/expenses/:id", (req, res) => {
   const expenses = readExpenses();
-  const index = expenses.findIndex(e => e.id === req.params.id);
+  const index = expenses.findIndex(e => e.id === Number(req.params.id));
 
   if (index === -1)
     return res.status(404).json({ error: "Despesa não encontrada" });
@@ -91,7 +91,7 @@ app.put("/expenses/:id", (req, res) => {
 
 app.delete("/expenses/:id", (req, res) => {
   let expenses = readExpenses();
-  const exists = expenses.some(e => e.id === req.params.id);
+  const exists = expenses.some(e => e.id === Number(req.params.id));
 
   if (!exists)
     return res.status(404).json({ error: "Despesa não encontrada" });
